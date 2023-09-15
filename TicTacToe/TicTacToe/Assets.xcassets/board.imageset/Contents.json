@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "1688947339_MR-10720237217-tic-tac-toe-svg-tic-tac-toe-svg-files-tic-tac-toe-board-image-1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "1688947339_MR-10720237217-tic-tac-toe-svg-tic-tac-toe-svg-files-tic-tac-toe-board-image-1 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "1688947339_MR-10720237217-tic-tac-toe-svg-tic-tac-toe-svg-files-tic-tac-toe-board-image-1 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

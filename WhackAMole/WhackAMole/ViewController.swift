@@ -100,7 +100,7 @@ class ViewController: UIViewController {
     fileprivate func startTimer() {
         timer?.invalidate()
         
-        timer = Timer.scheduledTimer(withTimeInterval: gameDuration, repeats: false) { [weak self] _ in
+        timer = Timer.scheduledTimer(withTimeInterval: gameDuration, repeats: true) { [weak self] _ in
             self?.gameOver()
         }
         
@@ -108,7 +108,6 @@ class ViewController: UIViewController {
             self?.updateTimerLabel()
         }
         
-        updateTimer.fire()
     }
     
     @objc func whacked(_ sender: UIButton!) {
