@@ -126,7 +126,9 @@ class ViewController: UIViewController {
     }
     
     fileprivate func restartGame() {
-        
+        randRed = CGFloat.random(in: 0...1)
+        randGreen = CGFloat.random(in: 0...1)
+        randBlue = CGFloat.random(in: 0...1)
         drawRandomColorBox()
         drawCurrentColorBox()
     }

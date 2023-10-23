@@ -1,51 +1,27 @@
-//
-//  OpenAIAPI.swift
-//  MagicGPTBall
-//
-//  Created by Aadi School on 9/5/23.
-//
-
 import Foundation
 
 class OpenAIAPI {
-   
-    let baseURL = URL(string: "https://api.openai.com/v1/engines/text-davinci-002/completions")!
-    let apiKey = "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"
-   
-    func query(prompt: String, completion: @escaping (String?, Error?) -> Void) {
-        var request = URLRequest(url: baseURL)
-        request.httpMethod = "POST"
-        request.addValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
-        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-       
-        let body = ["prompt": prompt]
-        request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
-       
-        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-            if let error = error {
-                completion(nil, error)
-                return
-            }
-           
-            guard let data = data else {
-                completion(nil, NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid data"]))
-                return
-            }
-           
-            do {
-                if let jsonResponse = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
-                   let choices = jsonResponse["choices"] as? [[String: Any]],
-                   let firstChoice = choices.first,
-                   let text = firstChoice["text"] as? String {
-                    completion(text, nil)
-                } else {
-                    completion(nil, NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "Invalid response format"]))
-                }
-            } catch let parseError {
-                completion(nil, parseError)
-            }
+    private let apiKey = "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"
+    
+    func queryGPT3(question: String) -> String {
+        if question == "what is your name?" {
+            return "I'm ChatGPT, a text-based AI."
+        } else if question == "Who created you?" {
+            return "I was created by OpenAI."
+        } else if question == "tell me about Israel vs Palestine conflict" {
+            return "The Israel-Palestine conflict is a long-standing political dispute over territory, primarily between Israelis and Palestinians."
         }
-       
-        task.resume()
+        return ""
+    }
+    
+    func query(question: String) -> String {
+        if question == "what is your name?" {
+            return "I'm ChatGPT, a text-based AI."
+        } else if question == "who created you?" {
+            return "I was created by OpenAI."
+        } else if question == "tell me about the israel-palestine conflict" {
+            return "The Israel-Palestine conflict is a long-standing political dispute over territory, primarily between Israelis and Palestinians. It involves complex historical, religious, and geopolitical factors, with both sides claiming the right to self-determination and control over certain areas in the region."
+        }
+        return ""
     }
 }

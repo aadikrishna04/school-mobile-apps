@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HVD_Comic_Serif_Pro.otf">
+            <string>HVDComicSerifPro</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AddOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="ugP-xs-yp7">
+                                <rect key="frame" x="16" y="59" width="119" height="51"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time" translatesAutoresizingMaskIntoConstraints="NO" id="Gy4-ZO-YuV">
+                                <rect key="frame" x="265" y="59" width="149" height="49"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="number" translatesAutoresizingMaskIntoConstraints="NO" id="gc2-TM-zm3">
+                                <rect key="frame" x="65" y="405" width="300" height="122"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH4-HJ-T1X">
+                                <rect key="frame" x="118" y="424" width="194" height="84"/>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfb-Jv-zIi">
+                                <rect key="frame" x="54" y="73" width="57" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="YlI-vh-QE6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Xf-jH-omW">
+                                <rect key="frame" x="296" y="71" width="60" height="27"/>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UvJ-VP-Jvj">
+                                <rect key="frame" x="20" y="580" width="390" height="94"/>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="70"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="inputFieldChanged:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="daq-31-pT2"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="tfb-Jv-zIi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="3Nb-pg-2Qu"/>
+                            <constraint firstItem="UvJ-VP-Jvj" firstAttribute="top" secondItem="gc2-TM-zm3" secondAttribute="bottom" constant="53" id="5gN-99-gtt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gy4-ZO-YuV" secondAttribute="trailing" constant="16" id="6aB-pH-zef"/>
+                            <constraint firstItem="ugP-xs-yp7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Co6-rz-gcW"/>
+                            <constraint firstItem="ugP-xs-yp7" firstAttribute="top" secondItem="Gy4-ZO-YuV" secondAttribute="top" id="D3l-0P-Njz"/>
+                            <constraint firstItem="ugP-xs-yp7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="F0b-GG-ipf"/>
+                            <constraint firstItem="ugP-xs-yp7" firstAttribute="centerY" secondItem="0Xf-jH-omW" secondAttribute="centerY" id="NIL-gB-Hum"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UvJ-VP-Jvj" secondAttribute="trailing" constant="20" id="QVQ-9E-R0Y"/>
+                            <constraint firstItem="0Xf-jH-omW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ugP-xs-yp7" secondAttribute="trailing" constant="8" symbolic="YES" id="SmP-rm-7RB"/>
+                            <constraint firstItem="gc2-TM-zm3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ViC-b6-sCA"/>
+                            <constraint firstItem="tfb-Jv-zIi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="Wwi-b6-t3x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Xf-jH-omW" secondAttribute="trailing" constant="74" id="qvQ-1Q-c2I"/>
+                            <constraint firstItem="gc2-TM-zm3" firstAttribute="centerX" secondItem="eH4-HJ-T1X" secondAttribute="centerX" id="sY2-Yg-XF5"/>
+                            <constraint firstItem="UvJ-VP-Jvj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="utE-5d-AiB"/>
+                            <constraint firstItem="gc2-TM-zm3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="v4z-nl-7G4"/>
+                            <constraint firstItem="gc2-TM-zm3" firstAttribute="centerY" secondItem="eH4-HJ-T1X" secondAttribute="centerY" id="vVJ-qe-aL1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="inputField" destination="UvJ-VP-Jvj" id="cgd-Be-YAo"/>
+                        <outlet property="numberLabel" destination="eH4-HJ-T1X" id="NqE-UB-VCH"/>
+                        <outlet property="scoreLabel" destination="tfb-Jv-zIi" id="qAM-6K-z5x"/>
+                        <outlet property="timeLabel" destination="0Xf-jH-omW" id="3wn-hH-hE1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.37209302325581" y="-28.326180257510732"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="number" width="300" height="122"/>
+        <image name="score" width="119" height="51"/>
+        <image name="time" width="149" height="49"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
