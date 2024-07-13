@@ -7,65 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE1B23BE2AE027D900837D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B23BD2AE027D900837D3F /* AppDelegate.swift */; };
-		BE1B23C02AE027D900837D3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B23BF2AE027D900837D3F /* SceneDelegate.swift */; };
-		BE1B23C22AE027D900837D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B23C12AE027D900837D3F /* ViewController.swift */; };
-		BE1B23C52AE027D900837D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1B23C32AE027D900837D3F /* Main.storyboard */; };
-		BE1B23C82AE027D900837D3F /* Voluntracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE1B23C62AE027D900837D3F /* Voluntracker.xcdatamodeld */; };
-		BE1B23CA2AE027DA00837D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1B23C92AE027DA00837D3F /* Assets.xcassets */; };
-		BE1B23CD2AE027DA00837D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1B23CB2AE027DA00837D3F /* LaunchScreen.storyboard */; };
+		BE9C0E882B27746C000D12D3 /* HoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9C0E872B27746C000D12D3 /* HoursViewController.swift */; };
+		BEC7962B2B27727500E961E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7962A2B27727500E961E5 /* AppDelegate.swift */; };
+		BEC7962D2B27727500E961E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7962C2B27727500E961E5 /* SceneDelegate.swift */; };
+		BEC7962F2B27727500E961E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7962E2B27727500E961E5 /* LoginViewController.swift */; };
+		BEC796322B27727500E961E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC796302B27727500E961E5 /* Main.storyboard */; };
+		BEC796342B27727600E961E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC796332B27727600E961E5 /* Assets.xcassets */; };
+		BEC796372B27727600E961E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC796352B27727600E961E5 /* LaunchScreen.storyboard */; };
+		BEC7963F2B2772ED00E961E5 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC7963E2B2772ED00E961E5 /* Switcher.swift */; };
+		BEFB45D92B27787900F0A808 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFB45D82B27787900F0A808 /* SignUpViewController.swift */; };
+		BEFB45DB2B27812500F0A808 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEFB45DA2B27812500F0A808 /* GoogleService-Info.plist */; };
+		BEFB45DE2B27815600F0A808 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BEFB45DD2B27815600F0A808 /* FirebaseAuth */; };
+		BEFB45E02B27815600F0A808 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BEFB45DF2B27815600F0A808 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE1B23BA2AE027D900837D3F /* Voluntracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voluntracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE1B23BD2AE027D900837D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE1B23BF2AE027D900837D3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE1B23C12AE027D900837D3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE1B23C42AE027D900837D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE1B23C72AE027D900837D3F /* Voluntracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voluntracker.xcdatamodel; sourceTree = "<group>"; };
-		BE1B23C92AE027DA00837D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE1B23CC2AE027DA00837D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BE1B23CE2AE027DA00837D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9C0E872B27746C000D12D3 /* HoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
+		BEC796272B27727500E961E5 /* Voluntracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voluntracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC7962A2B27727500E961E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC7962C2B27727500E961E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEC7962E2B27727500E961E5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BEC796312B27727500E961E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC796332B27727600E961E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC796362B27727600E961E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC796382B27727600E961E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC7963E2B2772ED00E961E5 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		BEFB45D82B27787900F0A808 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BEFB45DA2B27812500F0A808 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE1B23B72AE027D900837D3F /* Frameworks */ = {
+		BEC796242B27727500E961E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFB45DE2B27815600F0A808 /* FirebaseAuth in Frameworks */,
+				BEFB45E02B27815600F0A808 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE1B23B12AE027D900837D3F = {
+		BEC7961E2B27727500E961E5 = {
 			isa = PBXGroup;
 			children = (
-				BE1B23BC2AE027D900837D3F /* Voluntracker */,
-				BE1B23BB2AE027D900837D3F /* Products */,
+				BEC796292B27727500E961E5 /* Voluntracker */,
+				BEC796282B27727500E961E5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE1B23BB2AE027D900837D3F /* Products */ = {
+		BEC796282B27727500E961E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE1B23BA2AE027D900837D3F /* Voluntracker.app */,
+				BEC796272B27727500E961E5 /* Voluntracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE1B23BC2AE027D900837D3F /* Voluntracker */ = {
+		BEC796292B27727500E961E5 /* Voluntracker */ = {
 			isa = PBXGroup;
 			children = (
-				BE1B23BD2AE027D900837D3F /* AppDelegate.swift */,
-				BE1B23BF2AE027D900837D3F /* SceneDelegate.swift */,
-				BE1B23C12AE027D900837D3F /* ViewController.swift */,
-				BE1B23C32AE027D900837D3F /* Main.storyboard */,
-				BE1B23C92AE027DA00837D3F /* Assets.xcassets */,
-				BE1B23CB2AE027DA00837D3F /* LaunchScreen.storyboard */,
-				BE1B23CE2AE027DA00837D3F /* Info.plist */,
-				BE1B23C62AE027D900837D3F /* Voluntracker.xcdatamodeld */,
+				BEC7962A2B27727500E961E5 /* AppDelegate.swift */,
+				BEC7962C2B27727500E961E5 /* SceneDelegate.swift */,
+				BEC7962E2B27727500E961E5 /* LoginViewController.swift */,
+				BEC7963E2B2772ED00E961E5 /* Switcher.swift */,
+				BE9C0E872B27746C000D12D3 /* HoursViewController.swift */,
+				BEC796302B27727500E961E5 /* Main.storyboard */,
+				BEFB45D82B27787900F0A808 /* SignUpViewController.swift */,
+				BEFB45DA2B27812500F0A808 /* GoogleService-Info.plist */,
+				BEC796332B27727600E961E5 /* Assets.xcassets */,
+				BEC796352B27727600E961E5 /* LaunchScreen.storyboard */,
+				BEC796382B27727600E961E5 /* Info.plist */,
 			);
 			path = Voluntracker;
 			sourceTree = "<group>";
@@ -73,39 +86,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE1B23B92AE027D900837D3F /* Voluntracker */ = {
+		BEC796262B27727500E961E5 /* Voluntracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE1B23D12AE027DA00837D3F /* Build configuration list for PBXNativeTarget "Voluntracker" */;
+			buildConfigurationList = BEC7963B2B27727600E961E5 /* Build configuration list for PBXNativeTarget "Voluntracker" */;
 			buildPhases = (
-				BE1B23B62AE027D900837D3F /* Sources */,
-				BE1B23B72AE027D900837D3F /* Frameworks */,
-				BE1B23B82AE027D900837D3F /* Resources */,
+				BEC796232B27727500E961E5 /* Sources */,
+				BEC796242B27727500E961E5 /* Frameworks */,
+				BEC796252B27727500E961E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Voluntracker;
+			packageProductDependencies = (
+				BEFB45DD2B27815600F0A808 /* FirebaseAuth */,
+				BEFB45DF2B27815600F0A808 /* FirebaseFirestore */,
+			);
 			productName = Voluntracker;
-			productReference = BE1B23BA2AE027D900837D3F /* Voluntracker.app */;
+			productReference = BEC796272B27727500E961E5 /* Voluntracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE1B23B22AE027D900837D3F /* Project object */ = {
+		BEC7961F2B27727500E961E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					BE1B23B92AE027D900837D3F = {
+					BEC796262B27727500E961E5 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = BE1B23B52AE027D900837D3F /* Build configuration list for PBXProject "Voluntracker" */;
+			buildConfigurationList = BEC796222B27727500E961E5 /* Build configuration list for PBXProject "Voluntracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +130,62 @@
 				en,
 				Base,
 			);
-			mainGroup = BE1B23B12AE027D900837D3F;
-			productRefGroup = BE1B23BB2AE027D900837D3F /* Products */;
+			mainGroup = BEC7961E2B27727500E961E5;
+			packageReferences = (
+				BEFB45DC2B27815600F0A808 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BEC796282B27727500E961E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE1B23B92AE027D900837D3F /* Voluntracker */,
+				BEC796262B27727500E961E5 /* Voluntracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE1B23B82AE027D900837D3F /* Resources */ = {
+		BEC796252B27727500E961E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1B23CD2AE027DA00837D3F /* LaunchScreen.storyboard in Resources */,
-				BE1B23CA2AE027DA00837D3F /* Assets.xcassets in Resources */,
-				BE1B23C52AE027D900837D3F /* Main.storyboard in Resources */,
+				BEC796372B27727600E961E5 /* LaunchScreen.storyboard in Resources */,
+				BEC796342B27727600E961E5 /* Assets.xcassets in Resources */,
+				BEC796322B27727500E961E5 /* Main.storyboard in Resources */,
+				BEFB45DB2B27812500F0A808 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE1B23B62AE027D900837D3F /* Sources */ = {
+		BEC796232B27727500E961E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1B23C22AE027D900837D3F /* ViewController.swift in Sources */,
-				BE1B23C82AE027D900837D3F /* Voluntracker.xcdatamodeld in Sources */,
-				BE1B23BE2AE027D900837D3F /* AppDelegate.swift in Sources */,
-				BE1B23C02AE027D900837D3F /* SceneDelegate.swift in Sources */,
+				BEFB45D92B27787900F0A808 /* SignUpViewController.swift in Sources */,
+				BEC7962F2B27727500E961E5 /* LoginViewController.swift in Sources */,
+				BEC7962B2B27727500E961E5 /* AppDelegate.swift in Sources */,
+				BEC7963F2B2772ED00E961E5 /* Switcher.swift in Sources */,
+				BEC7962D2B27727500E961E5 /* SceneDelegate.swift in Sources */,
+				BE9C0E882B27746C000D12D3 /* HoursViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE1B23C32AE027D900837D3F /* Main.storyboard */ = {
+		BEC796302B27727500E961E5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE1B23C42AE027D900837D3F /* Base */,
+				BEC796312B27727500E961E5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BE1B23CB2AE027DA00837D3F /* LaunchScreen.storyboard */ = {
+		BEC796352B27727600E961E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE1B23CC2AE027DA00837D3F /* Base */,
+				BEC796362B27727600E961E5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +193,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BE1B23CF2AE027DA00837D3F /* Debug */ = {
+		BEC796392B27727600E961E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		BE1B23D02AE027DA00837D3F /* Release */ = {
+		BEC7963A2B27727600E961E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +307,7 @@
 			};
 			name = Release;
 		};
-		BE1B23D22AE027DA00837D3F /* Debug */ = {
+		BEC7963C2B27727600E961E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -311,7 +334,7 @@
 			};
 			name = Debug;
 		};
-		BE1B23D32AE027DA00837D3F /* Release */ = {
+		BEC7963D2B27727600E961E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -341,38 +364,49 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE1B23B52AE027D900837D3F /* Build configuration list for PBXProject "Voluntracker" */ = {
+		BEC796222B27727500E961E5 /* Build configuration list for PBXProject "Voluntracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE1B23CF2AE027DA00837D3F /* Debug */,
-				BE1B23D02AE027DA00837D3F /* Release */,
+				BEC796392B27727600E961E5 /* Debug */,
+				BEC7963A2B27727600E961E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE1B23D12AE027DA00837D3F /* Build configuration list for PBXNativeTarget "Voluntracker" */ = {
+		BEC7963B2B27727600E961E5 /* Build configuration list for PBXNativeTarget "Voluntracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE1B23D22AE027DA00837D3F /* Debug */,
-				BE1B23D32AE027DA00837D3F /* Release */,
+				BEC7963C2B27727600E961E5 /* Debug */,
+				BEC7963D2B27727600E961E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		BE1B23C62AE027D900837D3F /* Voluntracker.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BE1B23C72AE027D900837D3F /* Voluntracker.xcdatamodel */,
-			);
-			currentVersion = BE1B23C72AE027D900837D3F /* Voluntracker.xcdatamodel */;
-			path = Voluntracker.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		BEFB45DC2B27815600F0A808 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEFB45DD2B27815600F0A808 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEFB45DC2B27815600F0A808 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BEFB45DF2B27815600F0A808 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEFB45DC2B27815600F0A808 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = BE1B23B22AE027D900837D3F /* Project object */;
+	rootObject = BEC7961F2B27727500E961E5 /* Project object */;
 }

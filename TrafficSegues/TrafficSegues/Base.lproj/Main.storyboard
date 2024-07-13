@@ -83,6 +83,9 @@
                                 <rect key="frame" x="154.66666666666666" y="408.66666666666669" width="84" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
+                                <connections>
+                                    <segue destination="xfe-9g-BW4" kind="unwind" unwindAction="unwindToRedWithUnwindSegue:" id="LWv-mT-He8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dUT-K1-2Xl"/>
@@ -97,6 +100,7 @@
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cov-wc-GnC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="xfe-9g-BW4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2701.5267175572517" y="-27.464788732394368"/>
         </scene>
