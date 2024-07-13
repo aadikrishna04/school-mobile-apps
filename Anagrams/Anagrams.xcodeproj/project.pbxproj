@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		BE4669332BED0E9A00B68D7F /* AnagramsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4669322BED0E9A00B68D7F /* AnagramsApp.swift */; };
 		BE4669352BED0E9A00B68D7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4669342BED0E9A00B68D7F /* ContentView.swift */; };
-		BE4669372BED0E9B00B68D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4669362BED0E9B00B68D7F /* Assets.xcassets */; };
 		BE46693A2BED0E9B00B68D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4669392BED0E9B00B68D7F /* Preview Assets.xcassets */; };
+		BE4669452BED134B00B68D7F /* AnagramsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4669442BED134B00B68D7F /* AnagramsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE46692F2BED0E9A00B68D7F /* Anagrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anagrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4669322BED0E9A00B68D7F /* AnagramsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramsApp.swift; sourceTree = "<group>"; };
 		BE4669342BED0E9A00B68D7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BE4669362BED0E9B00B68D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE4669392BED0E9B00B68D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE4669442BED134B00B68D7F /* AnagramsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				BE4669322BED0E9A00B68D7F /* AnagramsApp.swift */,
 				BE4669342BED0E9A00B68D7F /* ContentView.swift */,
-				BE4669362BED0E9B00B68D7F /* Assets.xcassets */,
+				BE4669442BED134B00B68D7F /* AnagramsView.swift */,
 				BE4669382BED0E9B00B68D7F /* Preview Content */,
 			);
 			path = Anagrams;
@@ -126,7 +126,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE46693A2BED0E9B00B68D7F /* Preview Assets.xcassets in Resources */,
-				BE4669372BED0E9B00B68D7F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4669352BED0E9A00B68D7F /* ContentView.swift in Sources */,
+				BE4669452BED134B00B68D7F /* AnagramsView.swift in Sources */,
 				BE4669332BED0E9A00B68D7F /* AnagramsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
